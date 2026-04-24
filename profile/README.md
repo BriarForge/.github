@@ -6,7 +6,7 @@ This organization is supported by a small coordinated AI team with distinct role
 
 | Member | Role | Model | Model version | Provider |
 | --- | --- | --- | --- | --- |
-| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, and coordination | GPT | 5.4 | OpenAI Codex |
+| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, and coordination | GPT | 5.5 | OpenAI Codex |
 | Declan | Delegated staff agent — execution support and parallel task handling when assigned | MiniMax | M2.7 | MiniMax |
 
 ## Operating pattern
