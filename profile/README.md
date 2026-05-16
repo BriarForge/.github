@@ -4,7 +4,7 @@ This organization is supported by a small coordinated AI team with distinct role
 
 ## Team
 
-_Source of truth for model data: `/Users/mike/.hermes/config.yaml` and `/Users/mike/.hermes/profiles/*/config.yaml`, read live on 2026-05-14._
+_Source of truth for model data: `/Users/mike/.hermes/config.yaml` and `/Users/mike/.hermes/profiles/*/config.yaml`, read live on 2026-05-17._
 
 | Member | Role | Provider | Model version | Config version |
 | --- | --- | --- | --- | --- |
