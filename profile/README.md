@@ -4,12 +4,12 @@ This organization is supported by a small coordinated AI team with distinct role
 
 ## Team
 
-_Source of truth for model data: `/Users/mike/.hermes/config.yaml` and `/Users/mike/.hermes/profiles/*/config.yaml`, read live on 2026-05-20._
+_Source of truth for model data: `/Users/mike/.hermes/config.yaml` and `/Users/mike/.hermes/profiles/*/config.yaml`, read live on 2026-05-24._
 
 | Member | Role | Provider | Model version | Config version |
 | --- | --- | --- | --- | --- |
 | Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, governance, and coordination | `opencode-go` | `qwen3.6-plus` | `23` |
-| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `openai-codex` | `gpt-5.5` | `18` |
+| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `openai-codex` | `gpt-5.5` | `23` |
 | Milena Petrova | Analyst — research, evidence checks, source quality, comparisons, and decision support | `opencode-go` | `glm-5.1` | `23` |
 | Sofia Novak | Designer — UI/UX, visual hierarchy, user flows, interaction quality, and content clarity | `opencode-go` | `mimo-v2-omni` | `null` |
 
