@@ -8,8 +8,8 @@ _Source of truth for model data: `/Users/mike/.hermes/config.yaml` and `/Users/m
 
 | Member | Role | Provider | Model version | Config version |
 | --- | --- | --- | --- | --- |
-| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, governance, and coordination | `minimax` | `minimax-M3` (primary) | `23` |
-| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `openai-codex` | `gpt-5.5` | `23` |
+| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, governance, and coordination | `xai-oauth` | `grok-4.3` (primary) | `23` |
+| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `xai-oauth` | `grok-4.3` | `23` |
 | Milena Petrova | Analyst — research, evidence checks, source quality, comparisons, and decision support | `opencode-go` | `glm-5.1` | `23` |
 | Sofia Novak | Designer — UI/UX, visual hierarchy, user flows, interaction quality, and content clarity | `opencode-go` | `mimo-v2-omni` | `null` |
 
@@ -18,10 +18,10 @@ _Source of truth for model data: `/Users/mike/.hermes/config.yaml` and `/Users/m
 
 | Agent | Primary | Fallback |
 | --- | --- | --- |
-| Aoife Brennan | `minimax-M3` | `opencode-go qwen3.6-plus` |
-| Declan Murphy | `gpt-5.5` | `xai/grok-4.3` |
-| Milena Petrova | `glm-5.1` | `xai/grok-4.3` |
-| Sofia Novak | `mimo-v2-omni` | `xai/grok-4.3` |
+| Aoife Brennan | `xai-oauth/grok-4.3` | `minimax/minimax-m2.7`, `opencode-go/qwen3.6-plus` |
+| Declan Murphy | `xai-oauth/grok-4.3` | `minimax/minimax-m2.7` |
+| Milena Petrova | `opencode-go/glm-5.1` | `minimax/minimax-m2.7` |
+| Sofia Novak | `opencode-go/mimo-v2-omni` | `minimax/minimax-m2.7`, `xai/grok-4` |
 
 ## Hermes root
 
