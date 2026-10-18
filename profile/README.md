@@ -4,30 +4,32 @@ This organisation is supported by a small coordinated AI team with distinct role
 
 ## Team
 
-_Source of truth for model data: `/Users/mike/.hermes/config.yaml` and `/Users/mike/.hermes/profiles/*/config.yaml`, read live on 2026-09-06._
+_Source of truth for model data: `/home/mike/.hermes/config.yaml` and `/home/mike/.hermes/profiles/*/config.yaml`, read live on 2026-10-18._
 
 | Member | Role | Provider | Model version | Config version |
 | --- | --- | --- | --- | --- |
-| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, governance, and coordination | `moa` | `moa/grok-4.6->m3` | `39` |
-| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `moa` | `moa/m3->grok-4.6` | `39` |
-| Milena Petrova | Analyst — research, evidence checks, source quality, comparisons, and decision support | `moa` | `moa/grok-4.6->m3` | `39` |
-| Sofia Novak | Designer — UI/UX, visual hierarchy, user flows, interaction quality, and content clarity | `moa` | `moa/grok-4.6->m3` | `39` |
+| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, governance, and coordination | `openai-codex` | `openai-codex/gpt-6-sol` | `49` |
+| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `moa` | `moa/m3->grok-4.6` | `49` |
+| Milena Petrova | Analyst — research, evidence checks, source quality, comparisons, and decision support | `moa` | `moa/grok-4.6->m3` | `49` |
+| Sofia Novak | Designer — UI/UX, visual hierarchy, user flows, interaction quality, and content clarity | `moa` | `moa/grok-4.6->m3` | `49` |
 
 
 ## Fallback Models
 
 | Agent | Primary | Fallback |
 | --- | --- | --- |
-| Aoife Brennan | `moa/grok-4.6->m3` | MOA — ref `xai-oauth/grok-4.6`, aggregator `minimax/minimax-m3` |
-| Declan Murphy | `moa/m3->grok-4.6` | MOA — ref `minimax/minimax-m3`, aggregator `xai-oauth/grok-4.6` |
-| Milena Petrova | `moa/grok-4.6->m3` | MOA — ref `xai-oauth/grok-4.6`, aggregator `minimax/minimax-m3` |
-| Sofia Novak | `moa/grok-4.6->m3` | MOA — ref `xai-oauth/grok-4.6`, aggregator `minimax/minimax-m3` |
+| Aoife Brennan | `openai-codex/gpt-6-sol` | `xai-oauth/grok-4.6`, `minimax/minimax-m3` |
+| Declan Murphy | `moa/m3->grok-4.6` | `xai-oauth/grok-4.6`, `minimax/minimax-m3` |
+| Milena Petrova | `moa/grok-4.6->m3` | `xai-oauth/grok-4.6`, `minimax/minimax-m3` |
+| Sofia Novak | `moa/grok-4.6->m3` | `xai-oauth/grok-4.6`, `minimax/minimax-m3` |
+
+_MOA identifiers are presets, not individual models. The fallback column lists the configured `fallback_providers` in order._
 
 ## Hermes root
 
 | Scope | Provider | Model version | Backend |
 | --- | --- | --- | --- |
-| Root default | `moa` | `moa/grok-4.6->m3` | Hermes default CLI |
+| Root default | `openai-codex` | `openai-codex/gpt-6-sol` | Hermes default CLI (config v49) |
 
 ## Operating pattern
 
