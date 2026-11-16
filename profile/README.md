@@ -8,10 +8,10 @@ _Source of truth for model data: `/home/mike/.hermes/config.yaml` and `/home/mik
 
 | Member | Role | Provider | Model version | Config version |
 | --- | --- | --- | --- | --- |
-| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, governance, and coordination | `xai-oauth` | `xai-oauth/grok-4.7` | `49` |
-| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `xai-oauth` | `xai-oauth/grok-4.7` | `49` |
-| Milena Petrova | Analyst — research, evidence checks, source quality, comparisons, and decision support | `minimax` | `minimax/minimax-m3` | `49` |
-| Sofia Novak | Designer — UI/UX, visual hierarchy, user flows, interaction quality, and content clarity | `minimax` | `minimax/minimax-m3` | `49` |
+| Aoife Brennan / Hermes Prime | Strategic lead — systems thinking, long-term planning, synthesis, prioritization, governance, and coordination | `xai-oauth` | `xai-oauth/grok-4.7` | `53` |
+| Declan Murphy | Operator — execution, coding, debugging, delivery, verification, and delegated throughput | `xai-oauth` | `xai-oauth/grok-4.7` | `53` |
+| Milena Petrova | Analyst — research, evidence checks, source quality, comparisons, and decision support | `claude-subscription-directsdk-experimental` | `claude-subscription-directsdk-experimental/claude-haiku-5-5` | `53` |
+| Sofia Novak | Designer — UI/UX, visual hierarchy, user flows, interaction quality, and content clarity | `claude-subscription-directsdk-experimental` | `claude-subscription-directsdk-experimental/claude-haiku-5-5` | `53` |
 
 
 ## Fallback Models
@@ -20,8 +20,8 @@ _Source of truth for model data: `/home/mike/.hermes/config.yaml` and `/home/mik
 | --- | --- | --- |
 | Aoife Brennan | `xai-oauth/grok-4.7` | `minimax/minimax-m3` |
 | Declan Murphy | `xai-oauth/grok-4.7` | `minimax/minimax-m3` |
-| Milena Petrova | `minimax/minimax-m3` | `xai-oauth/grok-4.7` |
-| Sofia Novak | `minimax/minimax-m3` | `xai-oauth/grok-4.7` |
+| Milena Petrova | `claude-subscription-directsdk-experimental/claude-haiku-5-5` | `minimax/minimax-m3`, `xai-oauth/grok-4.7` |
+| Sofia Novak | `claude-subscription-directsdk-experimental/claude-haiku-5-5` | `minimax/minimax-m3`, `xai-oauth/grok-4.7` |
 
 _The fallback column lists the configured `fallback_providers` in order._
 
@@ -29,7 +29,7 @@ _The fallback column lists the configured `fallback_providers` in order._
 
 | Scope | Provider | Model version | Backend |
 | --- | --- | --- | --- |
-| Root default | `xai-oauth` | `xai-oauth/grok-4.7` | Hermes default CLI (config v49) |
+| Root default | `xai-oauth` | `xai-oauth/grok-4.7` | Hermes default CLI (config v53) |
 
 ## Operating pattern
 
